@@ -1,14 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-/*
- * Show Weak, Strong, Unbelievable
- * Takes an exponent argument that defaults to 1.
- * Usage:
- *   value | exponentialStrength
- * Example:
- *   {{ 2 |  exponentialStrength}}
- *   formats to: 1024
-*/
 @Pipe({
   name: 'strength'
 })
