@@ -24,7 +24,6 @@
             ],
             "styles": [
               "./node_modules/toastr/build/toastr.min.css",
-              "./node_modules/ngf-bootstrap/dist/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [
