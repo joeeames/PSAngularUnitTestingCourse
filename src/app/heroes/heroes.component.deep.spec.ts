@@ -12,6 +12,7 @@ import { NO_ERRORS_SCHEMA, Directive, Input } from "@angular/core";
 })
 
 // branch v1.0.0
+// branch v1.1.0
 export class RouterLinkDirectiveStub {
     @Input('routerLink') linkParams: any;
     navigatedTo: any = null;
