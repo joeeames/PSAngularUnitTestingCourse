@@ -11,6 +11,7 @@ import { NO_ERRORS_SCHEMA, Directive, Input } from "@angular/core";
     host: { '(click)': 'onClick()'}
 })
 
+
 // branch v1.0.0
 // branch v1.1.0
 // branch v1.1.1
