@@ -97,7 +97,6 @@ describe('HeroesComponent (deep tests)', () => {
         const heroText = fixture.debugElement.query(By.css('ul')).nativeElement.textContent;
         expect(heroText).toContain(name);
     });
-    
 
     it('should have the correct route for the first hero', () => {
         mockHeroService.getHeroes.and.returnValue(of(HEROES));
