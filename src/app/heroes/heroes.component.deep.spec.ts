@@ -11,6 +11,7 @@ import { NO_ERRORS_SCHEMA, Directive, Input } from "@angular/core";
     host: { '(click)': 'onClick()'}
 })
 
+//test branch
 export class RouterLinkDirectiveStub {
     @Input('routerLink') linkParams: any;
     navigatedTo: any = null;
@@ -97,7 +98,7 @@ describe('HeroesComponent (deep tests)', () => {
         const heroText = fixture.debugElement.query(By.css('ul')).nativeElement.textContent;
         expect(heroText).toContain(name);
     });
-    
+
 
     it('should have the correct route for the first hero', () => {
         mockHeroService.getHeroes.and.returnValue(of(HEROES));
