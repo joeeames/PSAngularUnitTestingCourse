@@ -11,7 +11,7 @@ import { NO_ERRORS_SCHEMA, Directive, Input } from "@angular/core";
     host: { '(click)': 'onClick()'}
 })
 
-//test
+//test 2
 export class RouterLinkDirectiveStub {
     @Input('routerLink') linkParams: any;
     navigatedTo: any = null;
