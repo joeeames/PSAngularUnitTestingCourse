@@ -38,7 +38,7 @@
     "@angular/language-service": "9.0.0-rc.11",
     "@types/jasmine": "2.8.6",
     "@types/jasminewd2": "2.0.3",
-    "@types/node": "8.9.4",
+    "@types/node": "^13.5.0",
     "codelyzer": "^5.0.1",
     "jasmine-core": "2.99.1",
     "jasmine-spec-reporter": "4.2.1",
