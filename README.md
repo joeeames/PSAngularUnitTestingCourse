@@ -1,6 +1,9 @@
-# Fresh17
+=======
+# Pluralsight's Unit Testing in Angular Course
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
+This course is up to date.
+
+To get started, clone the repo or download it from Github
 
 ## Development server
 
